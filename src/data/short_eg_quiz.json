@@ -1,0 +1,21 @@
+[{
+    "question": "What is the past tense of the verb 'to go'?",
+    "options": ["Went", "Goed", "Gone", "Going"],
+    "answer": "A",
+    "skills": ["Languages"]
+}, {
+    "question": "Which of the following is a synonym for 'happy'?",
+    "options": ["Sad", "Joyful", "Angry", "Tired"],
+    "answer": "B",
+    "skills": ["Languages"]
+}, {
+    "question": "What is the result of 6 multiplied by 9?",
+    "options": ["15", "42", "54", "63"],
+    "answer": "C",
+    "skills": ["Maths"]
+}, {
+    "question": "What is the square root of 25?",
+    "options": ["2", "5", "10", "25"],
+    "answer": "B",
+    "skills": ["Maths"]
+}]

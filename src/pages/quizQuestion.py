@@ -21,11 +21,13 @@ if platform.system() == 'Windows':
     answer_file_path = "app/temp/cur_quiz_answered.tmp"
     quiz_json_filename_path = "app/temp/cur_quiz_json.tmp"
     data_path = "app/data"
+    current_performance_path = "app/temp/cur_quiz_performance.tmp"
 else:
     score_file_path = "temp/cur_quiz_score.tmp"
     answer_file_path = "temp/cur_quiz_answered.tmp"
     quiz_json_filename_path = "temp/cur_quiz_json.tmp"
     data_path = "data"
+    current_performance_path = "temp/cur_quiz_performance.tmp"
 
 
 with open(score_file_path, "w") as f_w:
@@ -33,7 +35,9 @@ with open(score_file_path, "w") as f_w:
 with open(answer_file_path, "w") as f_w:
     f_w.write("0")
 with open(quiz_json_filename_path, "w") as f_w:
-    f_w.write("baseline_quiz.json")
+    f_w.write("short_eg_quiz.json")
+with open(current_performance_path, "w") as f_w:
+    f_w.write("")
 
 
 with open(quiz_json_filename_path, "r") as f_r:
@@ -211,6 +215,10 @@ def add_score_callback(b1, b2, b3, b4):
             with open(score_file_path, "w") as f_w:
                 f_w.write(f"{cur_score + 1}")
 
+        # Given, Correct
+        with open(current_performance_path, "a") as f_a:
+            f_a.write(f"{'ABCD'[mInd]} {correctSet[q_completed]}\n")
+
         with open(answer_file_path, "r") as f_r:
             cur_score = int(f_r.read())
         with open(answer_file_path, "w") as f_w:
@@ -221,7 +229,7 @@ def add_score_callback(b1, b2, b3, b4):
 
 
         if q_completed == q_questions:
-            print("STOPSTOPSTOP")
+            #print("STOPSTOPSTOP")
 
             q_completed = 0
 

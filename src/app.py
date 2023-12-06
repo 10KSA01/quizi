@@ -4,11 +4,11 @@ from components.navbar import create_navbar
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP], use_pages=True)
 
+server = app.server
+
 app.title = 'Quizi'
 app._favicon = ('logo.ico')
 navbar = create_navbar()
-
-server = app.server
 
 app.layout = html.Div(
     [
@@ -22,4 +22,4 @@ app.layout = html.Div(
 )
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8075)
+    app.run_server(debug=True)

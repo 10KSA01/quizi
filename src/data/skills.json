@@ -1,0 +1,47 @@
+{
+    "MainSkills": {
+        "Languages": {
+            "Azerbaijani Language and Literature": 0,
+            "English": 0,
+            "Russian": 0
+        },
+        "Mathematics and Sciences": {
+            "Mathematics": 0,
+            "Physics": 0,
+            "Chemistry": 0,
+            "Biology": 0
+        },
+        "Social Studies": {
+            "Geography": 0,
+            "History": 0
+        },
+        "Creative Arts": {
+            "Music": 0,
+            "Arts": 0
+        },
+        "Technology": {
+            "IT": 0,
+            "Computer Science": 0
+        },
+        "Religious and Ethical Education": {
+            "Religious Education": 0,
+            "Moral and Ethical Education": 0
+        },
+        "Business and Economics": {
+            "Business": 0,
+            "Economics": 0
+        }
+    },
+    "PassiveSkills": {
+        "Problem-Solving": 0,
+        "Creativity": 0,
+        "Adaptability": 0,
+        "Communication": 0,
+        "Attention to Detail": 0,
+        "Time Management": 0,
+        "Leadership": 0,
+        "Organizational": 0,
+        "Writing": 0,
+        "Presentation": 0
+    }
+}

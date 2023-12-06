@@ -1,0 +1,68 @@
+{
+    "Fields": [{
+            "Field": "Technology",
+            "Jobs": [
+                "Software Developer",
+                "Data Scientist",
+                "Network Engineer",
+                "Cybersecurity Analyst",
+                "UI/UX Designer",
+                "Hardware Engineer",
+                "System Administrator",
+                "IT Support Specialist"
+            ]
+        },
+        {
+            "Field": "Healthcare",
+            "Jobs": [
+                "Doctor",
+                "Nurse",
+                "Pharmacist",
+                "Medical Researcher",
+                "Radiologist",
+                "Physical Therapist",
+                "Healthcare Administrator",
+                "Clinical Psychologist"
+            ]
+        },
+        {
+            "Field": "Finance",
+            "Jobs": [
+                "Financial Analyst",
+                "Investment Banker",
+                "Accountant",
+                "Financial Advisor",
+                "Actuary",
+                "Risk Manager",
+                "Economist",
+                "Loan Officer"
+            ]
+        },
+        {
+            "Field": "Education",
+            "Jobs": [
+                "Teacher",
+                "Professor",
+                "School Counselor",
+                "Curriculum Developer",
+                "Principal",
+                "Librarian",
+                "Education Consultant",
+                "Special Education Instructor"
+            ]
+        },
+        {
+            "Field": "Art and Design",
+            "Jobs": [
+                "Graphic Designer",
+                "Illustrator",
+                "Animator",
+                "Fashion Designer",
+                "Interior Designer",
+                "Art Director",
+                "Photographer",
+                "Creative Director"
+            ]
+        }
+    ]
+}
